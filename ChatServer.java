@@ -1,9 +1,11 @@
-/*
- * ChatServer.java
- * Author: Nikita
- * Description: Server-side application for peer-to-peer chat using Java Sockets.
- * Features: Real-time messaging, timestamped logging, cross-platform compatibility.
- */
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// File Name: ChatServer.java
+// Author:    Nikita Omase
+// Date :     01-06-2025
+// Description: Server-side application for peer-to-peer chat using Java Sockets.
+// Features: Real-time messaging, timestamped logging, cross-platform compatibility.
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 import java.io.*;
 import java.net.*;
@@ -43,4 +45,5 @@ public class ChatServer {
         socket.close();
         serverSocket.close();
     }
+
 }
