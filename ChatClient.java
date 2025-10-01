@@ -1,6 +1,7 @@
 /*
- * ChatClient.java
- * Author: Nikita
+ * ChatClient.java 
+ * Author: Nikita Omase
+ * Date :01-06-2025
  * Description: Client-side application for peer-to-peer chat using Java Sockets.
  * Features: Real-time messaging, timestamped logging, cross-platform compatibility.
  */
@@ -42,4 +43,5 @@ public class ChatClient {
         logWriter.close();
         socket.close();
     }
+
 }
